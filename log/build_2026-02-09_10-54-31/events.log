@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000137] (robotics_class) JobQueued: {'identifier': 'robotics_class', 'dependencies': OrderedDict()}
+[0.000167] (robotics_class) JobStarted: {'identifier': 'robotics_class'}
+[0.004595] (robotics_class) JobProgress: {'identifier': 'robotics_class', 'progress': 'cmake'}
+[0.006907] (robotics_class) JobProgress: {'identifier': 'robotics_class', 'progress': 'build'}
+[0.007420] (robotics_class) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gus/robotica/build/robotics_class', '--', '-j8', '-l8'], 'cwd': '/home/gus/robotica/build/robotics_class', 'env': OrderedDict([('USER', 'gus'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('HOME', '/home/gus'), ('OLDPWD', '/home/gus/robotica'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1661'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'gus'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/gus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1473,unix/ubuntu:/tmp/.ICE-unix/1473'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1501148_7fa7_4d67_b96f_25017ff636a4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4XZHK3'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gus/robotica/build/robotics_class'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.038021] (robotics_class) CommandEnded: {'returncode': 0}
+[0.038489] (robotics_class) JobProgress: {'identifier': 'robotics_class', 'progress': 'install'}
+[0.046396] (robotics_class) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gus/robotica/build/robotics_class'], 'cwd': '/home/gus/robotica/build/robotics_class', 'env': OrderedDict([('USER', 'gus'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('HOME', '/home/gus'), ('OLDPWD', '/home/gus/robotica'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1661'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'gus'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/gus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1473,unix/ubuntu:/tmp/.ICE-unix/1473'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1501148_7fa7_4d67_b96f_25017ff636a4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4XZHK3'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gus/robotica/build/robotics_class'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.053129] (robotics_class) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.053527] (robotics_class) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.053888] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/launch/ekf.launch.py\n'}
+[0.054079] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/launch/robot_description.launch.py\n'}
+[0.054167] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/launch/rviz.launch.py\n'}
+[0.054302] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/launch/simulation_world.launch.py\n'}
+[0.054388] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/launch/slam.launch.py\n'}
+[0.054572] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/depth_camera.urdf.xacro\n'}
+[0.054731] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/imu.urdf.xacro\n'}
+[0.054822] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/inertial_matrix.xacro\n'}
+[0.054942] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/jetauto.xacro\n'}
+[0.055007] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/jetauto_car.urdf.xacro\n'}
+[0.055122] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/lidar.urdf.xacro\n'}
+[0.055191] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/materials.xacro\n'}
+[0.055310] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/p3d_plugin.gazebo.xacro\n'}
+[0.056445] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/base_arena/model.config\n'}
+[0.056547] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/base_arena/model.sdf\n'}
+[0.056662] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/bed/bed_model.stl\n'}
+[0.056773] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/bed/model.config\n'}
+[0.056873] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/bed/model.sdf\n'}
+[0.056985] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/scripts/chair_1_cushion.material\n'}
+[0.057094] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/scripts/chair_1_frame.material\n'}
+[0.057202] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/fabric_1.jpg\n'}
+[0.057307] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/wood_black.jpg\n'}
+[0.057413] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/wood_black_1.jpg\n'}
+[0.057521] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/wood_black_3.png\n'}
+[0.057626] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/meshes/cushions.dae\n'}
+[0.057742] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/meshes/frame.dae\n'}
+[0.057841] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/meshes/model.dae\n'}
+[0.057943] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/model.config\n'}
+[0.058040] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/model.sdf\n'}
+[0.058151] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/scripts/coffee_table_set_1_frame.material\n'}
+[0.058262] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/scripts/coffee_table_set_1_surf.material\n'}
+[0.058368] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/textures/leather.jpg\n'}
+[0.058478] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/textures/wood_dark_1.jpg\n'}
+[0.058581] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/model.dae\n'}
+[0.058742] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_frame.dae\n'}
+[0.058849] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_full.dae\n'}
+[0.058951] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_mid.dae\n'}
+[0.059053] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_top.dae\n'}
+[0.059159] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/tables.dae\n'}
+[0.059256] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/model.config\n'}
+[0.059365] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/model.sdf\n'}
+[0.059472] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/materials/scripts/file_black.material\n'}
+[0.059579] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/materials/textures/metal_black_2.jpg\n'}
+[0.059691] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/meshes/model.dae\n'}
+[0.059780] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/model.config\n'}
+[0.059865] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/model.sdf\n'}
+[0.059948] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/back_shell_link.stl\n'}
+[0.060031] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/base_link.stl\n'}
+[0.060114] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/base_link_collision.stl\n'}
+[0.060194] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/depth_camera_link.stl\n'}
+[0.060278] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/depth_camera_link_collision.stl\n'}
+[0.060360] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/lidar_link.stl\n'}
+[0.060442] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/mic_link.stl\n'}
+[0.060524] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/screen_link.stl\n'}
+[0.060606] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/screen_link_collision.stl\n'}
+[0.060696] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/speaker_link.stl\n'}
+[0.060781] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/wheel_left_back_link.stl\n'}
+[0.060899] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/wheel_left_front_link.stl\n'}
+[0.060982] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/wheel_right_back_link.stl\n'}
+[0.061062] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/wheel_right_front_link.stl\n'}
+[0.061148] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair/meshes/base.dae\n'}
+[0.061233] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair/meshes/seat.dae\n'}
+[0.061315] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair/model.config\n'}
+[0.061396] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair/model.sdf\n'}
+[0.061479] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/person/model.config\n'}
+[0.061561] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/person/model.sdf\n'}
+[0.061650] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/person/walk.dae\n'}
+[0.061901] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/plant_1_single/meshes/leaf.dae\n'}
+[0.061985] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/plant_1_single/model.config\n'}
+[0.062066] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/plant_1_single/model.sdf\n'}
+[0.062149] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/refrigerator/model.config\n'}
+[0.062231] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/refrigerator/model.sdf\n'}
+[0.062314] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/refrigerator/refrigerator.stl\n'}
+[0.062397] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sink/model.config\n'}
+[0.062479] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sink/model.sdf\n'}
+[0.062559] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sink/sink.stl\n'}
+[0.062675] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/materials/scripts/sofa_set_1.material\n'}
+[0.062768] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/materials/textures/fabric_black.jpg\n'}
+[0.062855] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/model.dae\n'}
+[0.062942] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions.dae\n'}
+[0.063027] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions_back.dae\n'}
+[0.063118] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions_bot.dae\n'}
+[0.063204] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions_sides.dae\n'}
+[0.063289] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_frame.dae\n'}
+[0.063374] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_full.dae\n'}
+[0.063456] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/model.config\n'}
+[0.063547] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/model.sdf\n'}
+[0.063628] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/stove/model.config\n'}
+[0.063725] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/stove/model.sdf\n'}
+[0.063807] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/stove/stove.stl\n'}
+[0.063888] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table/model.config\n'}
+[0.063969] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table/model.sdf\n'}
+[0.064056] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_breakfast/meshes/table3.dae\n'}
+[0.064137] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_breakfast/model.config\n'}
+[0.064219] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_breakfast/model.sdf\n'}
+[0.064313] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/scripts/dining_table.material\n'}
+[0.064399] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/textures/wood_black.jpg\n'}
+[0.064485] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/textures/wood_black_1.jpg\n'}
+[0.064573] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/textures/wood_black_3.png\n'}
+[0.064664] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/meshes/table2.dae\n'}
+[0.064749] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/model.config\n'}
+[0.064831] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/model.sdf\n'}
+[0.064914] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/tv/model.config\n'}
+[0.064995] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/tv/model.sdf\n'}
+[0.065077] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/tv/tv.dae\n'}
+[0.065169] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/vase_small/materials/scripts/vase_pattern1.material\n'}
+[0.065259] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/vase_small/materials/textures/bronze.jpg\n'}
+[0.065348] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/vase_small/meshes/vase2.dae\n'}
+[0.065431] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/vase_small/model.config\n'}
+[0.065513] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/models/vase_small/model.sdf\n'}
+[0.065730] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/rviz/view.rviz\n'}
+[0.065910] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/worlds/arena_1.world\n'}
+[0.066100] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/params/ekf.yaml\n'}
+[0.066195] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/params/slam.yaml\n'}
+[0.066353] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/ament_index/resource_index/package_run_dependencies/robotics_class\n'}
+[0.066495] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/ament_index/resource_index/parent_prefix_path/robotics_class\n'}
+[0.066631] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/environment/ament_prefix_path.sh\n'}
+[0.066773] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/environment/ament_prefix_path.dsv\n'}
+[0.066908] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/environment/path.sh\n'}
+[0.067028] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/environment/path.dsv\n'}
+[0.067158] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/local_setup.bash\n'}
+[0.067277] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/local_setup.sh\n'}
+[0.067398] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/local_setup.zsh\n'}
+[0.067524] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/local_setup.dsv\n'}
+[0.067617] (robotics_class) StdoutLine: {'line': b'-- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/package.dsv\n'}
+[0.075281] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/ament_index/resource_index/packages/robotics_class\n'}
+[0.075473] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/cmake/robotics_classConfig.cmake\n'}
+[0.075553] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/cmake/robotics_classConfig-version.cmake\n'}
+[0.075630] (robotics_class) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gus/robotica/install/robotics_class/share/robotics_class/package.xml\n'}
+[0.077166] (robotics_class) CommandEnded: {'returncode': 0}
+[0.095751] (robotics_class) JobEnded: {'identifier': 'robotics_class', 'rc': 0}
+[0.096350] (-) EventReactorShutdown: {}

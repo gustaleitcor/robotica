@@ -1,0 +1,148 @@
+[0.008s] Invoking command in '/home/gus/robotica/build/robotics_class': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gus/robotica/src/robotics_class -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gus/robotica/install/robotics_class
+[0.022s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.150s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.209s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.240s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.319s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.321s] -- Added test 'lint_cmake' to check CMake code style
+[0.323s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.331s] -- Added test 'xmllint' to check XML markup files
+[0.333s] -- Configuring done
+[0.335s] -- Generating done
+[0.336s] -- Build files have been written to: /home/gus/robotica/build/robotics_class
+[0.338s] Invoked command in '/home/gus/robotica/build/robotics_class' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/gus/robotica/src/robotics_class -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gus/robotica/install/robotics_class
+[0.340s] Invoking command in '/home/gus/robotica/build/robotics_class': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gus/robotica/build/robotics_class -- -j8 -l8
+[0.368s] Invoked command in '/home/gus/robotica/build/robotics_class' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gus/robotica/build/robotics_class -- -j8 -l8
+[0.376s] Invoking command in '/home/gus/robotica/build/robotics_class': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gus/robotica/build/robotics_class
+[0.382s] -- Install configuration: ""
+[0.382s] -- Execute custom install script
+[0.382s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/launch/ekf.launch.py
+[0.389s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/launch/robot_description.launch.py
+[0.396s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/launch/rviz.launch.py
+[0.403s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/launch/simulation_world.launch.py
+[0.409s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/launch/slam.launch.py
+[0.417s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/depth_camera.urdf.xacro
+[0.423s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/imu.urdf.xacro
+[0.431s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/inertial_matrix.xacro
+[0.437s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/jetauto.xacro
+[0.444s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/jetauto_car.urdf.xacro
+[0.450s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/lidar.urdf.xacro
+[0.456s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/materials.xacro
+[0.463s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/urdf/p3d_plugin.gazebo.xacro
+[0.470s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/base_arena/model.config
+[0.477s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/base_arena/model.sdf
+[0.483s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/bed/bed_model.stl
+[0.490s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/bed/model.config
+[0.497s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/bed/model.sdf
+[0.504s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/scripts/chair_1_cushion.material
+[0.511s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/scripts/chair_1_frame.material
+[0.518s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/fabric_1.jpg
+[0.525s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/wood_black.jpg
+[0.532s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/wood_black_1.jpg
+[0.538s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/wood_black_3.png
+[0.545s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/meshes/cushions.dae
+[0.552s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/meshes/frame.dae
+[0.559s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/meshes/model.dae
+[0.566s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/model.config
+[0.573s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/chair_1/model.sdf
+[0.580s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/scripts/coffee_table_set_1_frame.material
+[0.586s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/scripts/coffee_table_set_1_surf.material
+[0.593s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/textures/leather.jpg
+[0.600s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/textures/wood_dark_1.jpg
+[0.607s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/model.dae
+[0.614s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_frame.dae
+[0.620s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_full.dae
+[0.628s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_mid.dae
+[0.634s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_top.dae
+[0.641s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/tables.dae
+[0.647s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/model.config
+[0.654s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/model.sdf
+[0.660s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/materials/scripts/file_black.material
+[0.667s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/materials/textures/metal_black_2.jpg
+[0.673s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/meshes/model.dae
+[0.680s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/model.config
+[0.686s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/model.sdf
+[0.693s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/back_shell_link.stl
+[0.700s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/base_link.stl
+[0.707s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/base_link_collision.stl
+[0.714s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/depth_camera_link.stl
+[0.720s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/depth_camera_link_collision.stl
+[0.728s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/lidar_link.stl
+[0.734s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/mic_link.stl
+[0.741s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/screen_link.stl
+[0.748s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/screen_link_collision.stl
+[0.755s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/speaker_link.stl
+[0.762s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/wheel_left_back_link.stl
+[0.768s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/wheel_left_front_link.stl
+[0.775s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/wheel_right_back_link.stl
+[0.782s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/jetauto/wheel_right_front_link.stl
+[0.788s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair/meshes/base.dae
+[0.795s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair/meshes/seat.dae
+[0.802s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair/model.config
+[0.809s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair/model.sdf
+[0.816s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/person/model.config
+[0.823s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/person/model.sdf
+[0.831s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/person/walk.dae
+[0.837s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/plant_1_single/meshes/leaf.dae
+[0.844s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/plant_1_single/model.config
+[0.850s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/plant_1_single/model.sdf
+[0.857s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/refrigerator/model.config
+[0.863s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/refrigerator/model.sdf
+[0.870s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/refrigerator/refrigerator.stl
+[0.876s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sink/model.config
+[0.883s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sink/model.sdf
+[0.890s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sink/sink.stl
+[0.897s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/materials/scripts/sofa_set_1.material
+[0.904s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/materials/textures/fabric_black.jpg
+[0.911s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/model.dae
+[0.918s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions.dae
+[0.925s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions_back.dae
+[0.932s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions_bot.dae
+[0.939s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions_sides.dae
+[0.945s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_frame.dae
+[0.952s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_full.dae
+[0.958s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/model.config
+[0.965s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/model.sdf
+[0.971s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/stove/model.config
+[0.977s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/stove/model.sdf
+[0.985s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/stove/stove.stl
+[0.991s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table/model.config
+[0.998s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table/model.sdf
+[1.006s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_breakfast/meshes/table3.dae
+[1.013s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_breakfast/model.config
+[1.020s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_breakfast/model.sdf
+[1.027s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/scripts/dining_table.material
+[1.034s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/textures/wood_black.jpg
+[1.040s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/textures/wood_black_1.jpg
+[1.047s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/textures/wood_black_3.png
+[1.053s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/meshes/table2.dae
+[1.060s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/model.config
+[1.066s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/table_dining/model.sdf
+[1.073s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/tv/model.config
+[1.079s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/tv/model.sdf
+[1.085s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/tv/tv.dae
+[1.092s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/vase_small/materials/scripts/vase_pattern1.material
+[1.098s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/vase_small/materials/textures/bronze.jpg
+[1.105s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/vase_small/meshes/vase2.dae
+[1.111s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/vase_small/model.config
+[1.118s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/models/vase_small/model.sdf
+[1.125s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/rviz/view.rviz
+[1.132s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/worlds/arena_1.world
+[1.139s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/params/default.yaml
+[1.146s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/params/ekf.yaml
+[1.153s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/ament_index/resource_index/package_run_dependencies/robotics_class
+[1.160s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/ament_index/resource_index/parent_prefix_path/robotics_class
+[1.167s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/environment/ament_prefix_path.sh
+[1.174s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/environment/ament_prefix_path.dsv
+[1.181s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/environment/path.sh
+[1.188s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/environment/path.dsv
+[1.195s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/local_setup.bash
+[1.202s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/local_setup.sh
+[1.208s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/local_setup.zsh
+[1.216s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/local_setup.dsv
+[1.222s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/package.dsv
+[1.230s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/ament_index/resource_index/packages/robotics_class
+[1.237s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/cmake/robotics_classConfig.cmake
+[1.244s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/cmake/robotics_classConfig-version.cmake
+[1.251s] -- Symlinking: /home/gus/robotica/install/robotics_class/share/robotics_class/package.xml
+[1.259s] Invoked command in '/home/gus/robotica/build/robotics_class' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gus/robotica/build/robotics_class

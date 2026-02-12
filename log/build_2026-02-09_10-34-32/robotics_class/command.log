@@ -1,0 +1,4 @@
+Invoking command in '/home/gus/robotica/build/robotics_class': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gus/robotica/build/robotics_class -- -j8 -l8
+Invoked command in '/home/gus/robotica/build/robotics_class' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gus/robotica/build/robotics_class -- -j8 -l8
+Invoking command in '/home/gus/robotica/build/robotics_class': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gus/robotica/build/robotics_class
+Invoked command in '/home/gus/robotica/build/robotics_class' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gus/robotica/build/robotics_class

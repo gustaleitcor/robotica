@@ -1,0 +1,42 @@
+[0.000000] (-) TimerEvent: {}
+[0.000630] (robotics_class) JobQueued: {'identifier': 'robotics_class', 'dependencies': OrderedDict()}
+[0.000813] (robotics_class) JobStarted: {'identifier': 'robotics_class'}
+[0.004899] (robotics_class) JobProgress: {'identifier': 'robotics_class', 'progress': 'cmake'}
+[0.005431] (robotics_class) Command: {'cmd': ['/usr/bin/cmake', '/home/gus/robotica/src/robotics_class', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/gus/robotica/install/robotics_class'], 'cwd': '/home/gus/robotica/build/robotics_class', 'env': OrderedDict([('USER', 'gus'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('HOME', '/home/gus'), ('OLDPWD', '/home/gus/robotica'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1661'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'gus'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/gus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1473,unix/ubuntu:/tmp/.ICE-unix/1473'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1501148_7fa7_4d67_b96f_25017ff636a4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4XZHK3'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gus/robotica/build/robotics_class'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.094907] (robotics_class) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099585] (-) TimerEvent: {}
+[0.174320] (robotics_class) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.180847] (robotics_class) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199692] (-) TimerEvent: {}
+[0.238914] (robotics_class) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.245630] (robotics_class) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.245971] (robotics_class) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.246625] (robotics_class) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.249248] (robotics_class) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299886] (-) TimerEvent: {}
+[0.314906] (robotics_class) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.322043] (robotics_class) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.322322] (robotics_class) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.322811] (robotics_class) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.332911] (robotics_class) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:8 (find_package):\n'}
+[0.333067] (robotics_class) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.333172] (robotics_class) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.333245] (robotics_class) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.333295] (robotics_class) StderrLine: {'line': b'\n'}
+[0.333345] (robotics_class) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.333395] (robotics_class) StderrLine: {'line': b'  any of the following names:\n'}
+[0.333445] (robotics_class) StderrLine: {'line': b'\n'}
+[0.333494] (robotics_class) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.333542] (robotics_class) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.333591] (robotics_class) StderrLine: {'line': b'\n'}
+[0.333639] (robotics_class) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.333687] (robotics_class) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.333736] (robotics_class) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.333784] (robotics_class) StderrLine: {'line': b'  has been installed.\n'}
+[0.333832] (robotics_class) StderrLine: {'line': b'\n'}
+[0.333881] (robotics_class) StderrLine: {'line': b'\x1b[0m\n'}
+[0.333929] (robotics_class) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.334017] (robotics_class) StdoutLine: {'line': b'See also "/home/gus/robotica/build/robotics_class/CMakeFiles/CMakeOutput.log".\n'}
+[0.335981] (robotics_class) CommandEnded: {'returncode': 1}
+[0.354897] (robotics_class) JobEnded: {'identifier': 'robotics_class', 'rc': 1}
+[0.365673] (-) EventReactorShutdown: {}

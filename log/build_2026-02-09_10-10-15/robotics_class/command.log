@@ -1,0 +1,2 @@
+Invoking command in '/home/gus/robotica/build/robotics_class': /usr/bin/cmake /home/gus/robotica/src/robotics_class -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gus/robotica/install/robotics_class
+Invoked command in '/home/gus/robotica/build/robotics_class' returned '1': /usr/bin/cmake /home/gus/robotica/src/robotics_class -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gus/robotica/install/robotics_class

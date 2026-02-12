@@ -1,0 +1,1 @@
+/home/gus/robotica/build/robotics_class/ament_cmake_core/robotics_classConfig.cmake
