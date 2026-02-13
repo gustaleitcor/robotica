@@ -32,6 +32,7 @@ def generate_launch_description():
                 replacements={"robot_1/": "", "robot_1": ""},
             ),
         ],
+	parameters=[{"use_sim_time": True}],
         output="screen",
     )
 

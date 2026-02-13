@@ -99,11 +99,11 @@ create_tmux_window() {
 create_tmux_window 0 "Robot_Desc" 0 "ros2 launch robotics_class robot_description.launch.py"
 create_tmux_window 1 "Simulation" 2 "ros2 launch robotics_class simulation_world.launch.py"
 create_tmux_window 2 "EKF" 4 "ros2 launch robotics_class ekf.launch.py"
-create_tmux_window 3 "RViz" 2 "ros2 launch robotics_class rviz.launch.py"
+create_tmux_window 3 "RViz" 6 "ros2 launch robotics_class rviz.launch.py"
 create_tmux_window 4 "Teleop" 0 "ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap cmd_vel:=jetauto/cmd_vel"
-#create_tmux_window 5 "Navigation" 5 "ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true"
-#create_tmux_window 6 "SLAM" 15 "ros2 launch robotics_class slam.launch.py"
-create_tmux_window 5 "Localization" 10 "ros2 launch robotics_class localization.launch.py"
+create_tmux_window 5 "Navigation" 10 "ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true"
+# create_tmux_window 6 "SLAM" 15 "ros2 launch robotics_class slam.launch.py"
+create_tmux_window 6 "Localization" 18 "ros2 launch robotics_class localization.launch.py"
 
 
 # Janela de monitoramento/controle
